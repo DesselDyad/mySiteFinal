@@ -1,0 +1,89 @@
+{
+    "zombie": [
+        {
+            "title": "Outbreak",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Outbreak",
+                    "link": "/zombiemania?page=outbreak"
+                },
+                {
+                    "id": 1,
+                    "name": "Equipment",
+                    "link": "/zombiemania?page=equipment"
+                },
+                {
+                    "id": 2,
+                    "name": "Where to go",
+                    "link": "/zombiemania?page=where_to_go"
+                }
+            ]
+        },
+        {
+            "title": "Nutritional",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Food's running out",
+                    "link": "/zombiemania?page=food's_running_out"
+                },
+                {
+                    "id": 1,
+                    "name": "Supplies",
+                    "link": "/zombiemania?page=supplies"
+                }
+            ]
+        },
+        {
+            "title": "About Zombies",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Dead or Alive",
+                    "link": "/zombiemania?page=dead_or_alive"
+                },
+                {
+                    "id": 1,
+                    "name": "Philosophical",
+                    "link": "/zombiemania?page=philosophical"
+                },
+                {
+                    "id": 2,
+                    "name": "What is a Zombie",
+                    "link": "/zombiemania?page=what_is_a_zombie"
+                }
+            ]
+        },
+        {
+            "title": "Self Defense",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "How to kill a zombie",
+                    "link": "/zombiemania?page=how_to_kill_a_zombie"
+                },
+                {
+                    "id": 1,
+                    "name": "Weapons",
+                    "link": "/zombiemania?page=weapons"
+                }
+            ]
+        },
+        {
+            "title": "Franchises",
+            "items": [
+                {
+                    "id": 0,
+                    "name": "Zombie Movies",
+                    "link": "/zombiemania?page=zombie_movies"
+                },
+                {
+                    "id": 1,
+                    "name": "Zombie Games",
+                    "link": "/zombiemania?page=zombie_games"
+                }
+            ]
+        }
+    ]
+}

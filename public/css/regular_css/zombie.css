@@ -1,0 +1,143 @@
+@font-face {
+    font-family: plasdrip;
+    src: url(../../fonts/plasdrip.ttf);
+}
+@font-face {
+    font-family: plasdrpe;
+    src: url(../../fonts/plasdrpe.ttf);
+}
+@font-face {
+    font-family: zfreaks;
+    src: url(../../fonts/OpenType/zreaks\ nfi.otf);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// ZOMBIE CONTENT ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////// */
+
+#content {
+    /* FONT */
+    /* font-family: plasdrip; */
+    /* SIZE & SPACING */ 
+    font-size: 125%;
+    font-weight: bold;
+    line-height: 200%;
+    /* COLOR */
+    background-color: rgba(74,74,74,1);
+    border: 5px solid rgba(34,34,34,1);
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0 0 5px darkred,0 0 5px darkred,0 0 5px darkred,0 0 5px darkred,0 0 5px darkred,0 0 5px darkred;
+    /* BORDER */
+    padding:20px;
+    border-radius: 10px;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: zfreaks;
+    color: white;
+    text-shadow: 0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// ZOMBIE TABLES ////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////// */
+
+.zombie_table,
+.equipment_title {
+    border: 5px solid rgba(34,34,34,1);
+    border-radius: 5px;
+    border-collapse: unset;
+    background-color: rgba(74,74,74,1);
+    font-size: 125%;
+    font-weight: bold;
+    line-height: 200%;
+    border-radius: 10px;
+}
+
+.zombie_table td {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgba(74,74,74,1);
+    padding: 20px;
+    color: white;
+    text-shadow: 0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred;
+}
+
+.zombie_table th,
+.equipment_title {
+    padding: 20px;
+    font-family: zfreaks;
+    color: darkred;
+    text-shadow: 0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white;
+}
+
+.zombie_table img {
+    height: 75px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// ZOMBIE SIDEBAR ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////// */
+
+#sidebar_div {
+    background-color: rgba(74,74,74,1);
+    border: 5px solid rgba(34,34,34,1);
+    border-radius: 10px;
+}
+
+#sidebar_div ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#sidebar_div li {
+    padding-top: 40px;
+}
+
+.sidebar_category,
+.category_title,
+.sidebar_subcategory,
+.subcategory_item,
+.subcategory_title {
+    font-family: zfreaks;
+}
+
+.sidebar_category {
+    list-style-type: none;
+}
+
+.category_title {
+    color: white;
+    text-shadow: 0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred,0 0 10px darkred;
+}
+
+.sidebar_subcategory {
+}
+
+.subcategory_item {
+    padding: 10px;
+}
+
+.subcategory_title {
+    text-decoration: none;
+    color: darkred;
+    text-shadow: 0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white;
+    font-size: 125%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgba(54,54,54,1);
+    border: 5px solid rgba(34,34,34,1);
+    border-radius: 10px;
+}
+
+.subcategory_title:hover {
+    background-color: rgba(94,94,94,1);
+    text-decoration: none;
+    color: red;
+}
